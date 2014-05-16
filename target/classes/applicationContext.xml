@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+  <beans>  
+    <bean id="POIWPS_Transit_Centralized" class="org.geoserver.wps.gs.POI_Transit_Centralized"/>
+    <bean id="CrimeWPS_Transit_Centralized" class="org.geoserver.wps.gs.Crime_Transit_Centralized"/>
+    <bean id="AggregationWPS_Transit_Centralized" class="org.geoserver.wps.gs.Aggregation_Transit_Centralized"/>
+    <bean id="WalkshedWPS_Transit_Centralized" class="org.geoserver.wps.gs.Walkshed_Transit_Centralized"/>
+    <bean id="ManagementWPS_Transit" class="org.geoserver.wps.gs.Management_Transit"/>
+    <bean id="TransitWPS_Centralized" class="org.geoserver.wps.gs.Transit_Centralized"/>
+    <bean id="UnionWPS_Centralized" class="org.geoserver.wps.gs.Union_Centralized"/>
+  </beans>
